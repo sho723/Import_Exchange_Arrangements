@@ -180,7 +180,7 @@ def create_download_excel(result: Dict) -> bytes:
     return output.read()
 
 def main():
-    st.title("📊 Excel為替処理自動化システム")
+    st.title("📊 輸入為替必要金額整理自動化PoC")
     st.markdown("---")
     
     # サイドバーでの設定
